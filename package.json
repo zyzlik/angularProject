@@ -1,0 +1,10 @@
+{
+  "name": "angular_app",
+  "version": "1.0.0",
+  "description": "Sample of Angular App",
+  "main": "index.html",
+  "author": "Kseniia Churiumova",
+  "scripts": {
+    "start": "http-server . -a localhost -p 8000 -c-1"
+  }
+}
