@@ -4,17 +4,21 @@
     <title>Suggestion Box</title>
     <script type="text/javascript" src="js/vendor/angular.min.js"></script>
     <script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/
-css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+
 </head>
 <body ng-app="SuggestionBox" class="container">
+    <div class="col-md-6 col-md-offset-3">
     <div ng-view></div>
-    
+    </div>
     <!-- Modules -->
     <script type="text/javascript" src="js/app.js"></script>
 
     <!-- Controllers -->
     <script type="text/javascript" src="js/controllers/HomeController.js"></script>
+    <script type="text/javascript" src="js/controllers/SuggestionController.js"></script>
 
     <!-- Services -->
     <script type="text/javascript" src="js/services/suggestions.js"></script>

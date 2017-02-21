@@ -1,0 +1,35 @@
+body {
+    background-color: #34495e;
+}
+
+h1 {
+    color: #bdc3c7;
+    font-family: 'Dosis', sans-serif;
+}
+
+h2, p {
+    color: #ecf0f1;
+    font-family: 'Dosis', sans-serif;
+}
+
+a, h3 {
+    color: #3498db;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+.header-img {
+    width: 60px;
+}
+
+.glyphicon {
+    color: #2ecc71;
+    cursor: pointer;
+}
+
+.back {
+    font-size: 1.4em;
+    color: #bdc3c7;
+}

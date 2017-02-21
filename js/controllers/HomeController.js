@@ -1,5 +1,6 @@
 app.controller('HomeController', ['$scope', 'suggestions', function($scope, suggestions) {
-    $scope.helloWorld = "Hello, AngularJS!";
+    $scope.header = "Suggestion Box";
+    $scope.headerImg = 'http://www.jenrise.com/wp-content/uploads/2016/07/idea.png'
     $scope.posts = suggestions.posts;
     $scope.addSuggestion = function() {
         if(!$scope.title || $scope.title === '') {
@@ -9,6 +10,7 @@ app.controller('HomeController', ['$scope', 'suggestions', function($scope, sugg
         $scope.posts.push({
             title: $scope.title,
             upvotes: 0,
+            comments: []
         });
 
         $scope.title = '';
